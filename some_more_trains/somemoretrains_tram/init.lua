@@ -71,6 +71,101 @@ local function tram_set_livery(self, puncher, itemstack, data)
         if color == "#FFFF00" then
             newliv = "somemoretrains_tram_painting_yellow.png"
         end
+		-- real cities
+
+        if color == "#FF2222" then
+            newliv = "somemoretrains_tram_painting_bratislavanew.png"
+        end
+        if color == "#FF7777" then
+            newliv = "somemoretrains_tram_painting_brnot3.png"
+        end
+        if color == "#FFDDDD" then
+            newliv = "somemoretrains_tram_painting_brnodrak1.png"
+        end
+        if color == "#FFEEEE" then
+            newliv = "somemoretrains_tram_painting_brnodrak2.png"
+        end
+        if color == "#22FF77" then
+            newliv = "somemoretrains_tram_painting_london.png"
+        end
+        if color == "#FFAA00" then
+            newliv = "somemoretrains_tram_painting_most.png"
+        end
+        if color == "#FF22FF" then
+            newliv = "somemoretrains_tram_painting_olomouc223.png"
+        end
+        if color == "#AAAAFF" then
+            newliv = "somemoretrains_tram_painting_ostrava.png"
+        end
+        if color == "#8888FF" then
+            newliv = "somemoretrains_tram_painting_ostravanew.png"
+        end
+        if color == "#9999FF" then
+            newliv = "somemoretrains_tram_painting_ostravalowfloor.png"
+        end
+        if color == "#FFFF66" then
+            newliv = "somemoretrains_tram_painting_pilsen.png"
+        end
+        if color == "#11DD11" then
+            newliv = "somemoretrains_tram_painting_portland006.png"
+        end
+        if color == "#11DD22" then
+            newliv = "somemoretrains_tram_painting_portland002.png"
+        end
+        if color == "#11DD33" then
+            newliv = "somemoretrains_tram_painting_portland003.png"
+        end
+        if color == "#11DD44" then
+            newliv = "somemoretrains_tram_painting_portland005.png"
+        end
+        if color == "#11DD55" then
+            newliv = "somemoretrains_tram_painting_portland005.png"
+        end
+        if color == "#11DD66" then
+            newliv = "somemoretrains_tram_painting_portland006.png"
+        end
+        if color == "#11DD77" then
+            newliv = "somemoretrains_tram_painting_portland003.png"
+        end
+        if color == "#11DD88" then
+            newliv = "somemoretrains_tram_painting_portland008.png"
+        end
+        if color == "#11DD99" then
+            newliv = "somemoretrains_tram_painting_portland009.png"
+        end
+        if color == "#AAFFAA" then
+            newliv = "somemoretrains_tram_painting_poznan.png"
+        end       
+        if color == "#FFAAAA" then
+            newliv = "somemoretrains_tram_painting_prague1960.png"
+        end
+        if color == "#FFBBBB" then
+            newliv = "somemoretrains_tram_painting_prague1920.png"
+        end
+        if color == "#FFCCCC" then
+            newliv = "somemoretrains_tram_painting_pragueredwhite.png"
+        end
+        if color == "#BBFFBB" then
+            newliv = "somemoretrains_tram_painting_prague1910.png"
+        end
+        if color == "#CCFFCC" then
+            newliv = "somemoretrains_tram_painting_praguegreenwhite.png"
+        end
+        if color == "#FF1111" then
+            newliv = "somemoretrains_tram_painting_praguelowfloor.png"
+        end
+        if color == "#11FF11" then
+            newliv = "somemoretrains_tram_painting_prague1900.png"
+        end
+        if color == "#2255FF" then
+            newliv = "somemoretrains_tram_painting_riga1.png"
+        end
+        if color == "#FF99DD" then
+            newliv = "somemoretrains_tram_painting_strausbergold.png"
+        end
+        if color == "#DDAA00" then
+            newliv = "somemoretrains_tram_painting_strausbergnew.png"
+        end
         data.livery.painting = newliv
         tram_set_textures(self, data)
         --self:set_textures(data)
